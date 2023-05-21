@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* STEP-1  (HEADER SECTION ) */
+.header{
+    padding-bottom: 66px;
+}
+
+.navbar{
+    background-color: gray;
+    border-radius: 15px;
+    overflow: auto;
+    margin-bottom: 6px;
+    padding-bottom: 8px;
+}
+.navbar ul{
+
+}
+.navbar li{
+    float: left;
+    margin: 4px 53px;
+    margin-left: 31px;
+    list-style-type: disclosure-open; /* importent */
+    color: #e8dddd;
+    /* margin-bottom: 16px */
+}
+.navbar li a{
+    text-decoration: none; /* importent */
+    color: #62f80fbf;
+    font-weight: bold;
+    font-family: serif;
+}
+.search{
+    float: right;
+    /* padding: 7px 4px; */
+
+}
+.section2{
+    background-image: url('https://wallpapercave.com/wp/wp3332351.jpg');
+    overflow: auto;
+    height: 197px;
+    padding-top: 31px;
+}
+.headermain{
+    float: left;
+    font-size: 56px;
+    padding-top: 95px;
+    padding-left: 71px;
+    padding-right: 45px;
+    font-family: monospace;
+    color: #e4d9d9f7;
+}
+headerimg{
+    width: 287px;
+    float: right;
+    height: 50px;
+
+}
+
+
+/* STEP-2  ( MAIN SECTION )*/
+
+
+.main{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxfCnZTEivMqlny8x91X40HcyuGBSX-_-A&usqp=CAU');
+    background-repeat: no-repeat; /*stop repetition of background image */
+    background-size: 1294px 365px; /* _px(width-horizontally) _px(height-vertically)*/
+    overflow: auto; /*Importent Concept*/
+    padding-bottom: 20px;
+    clear: both;
+}
+.img{
+    margin-left: 57px;
+    margin-top: 40px;
+    float: left;
+}
+.about{
+    width: 846px;
+    float: right;
+    color:rgb(14 222 40 / 96%);;
+}
+.heading1{
+    font-size: 39px;
+}
+.span{
+    color: red;
+    font-family: cursive;
+    font-size: 18px;
+}
+.button{
+    font-size: 19px;
+    border-radius: 11px;
+    background-color: red;
+    float: right;
+    width: 82px;
+    clear: both; /* stop Overlap from Left or Right float */
+    margin-right: 764px;
+    cursor: pointer; /* curson convert into pointer whenever on button */
+}
+.button:hover{
+    background-color: rgb(169, 156, 156);
+    font-size: 25px;
+
+}
+
+/* STEP-3  ( FOOTER SECTION) */
+
+.footer{
+    background-color: black;
+    height: 337px;
+    padding-top: 62px;
+}
+.heading2{
+    color: white;
+    clear: both;
+    font-size: 56px;
+}    
+
+.box1{
+    color: white;
+    /* border: 5px solid white; */
+    float: left;
+    width: 281px;
+    margin-left: 70px;
+    padding-left: 18px;
+    background-color: rgb(106, 100, 100);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.box2{
+    color: white;
+    /* border: 5px solid white; */
+    float: left;
+    width: 281px;
+    margin-left: 45px;
+    padding-left: 17px;
+    background-color: rgb(106, 100, 100);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.box3{
+   color: white;
+   /* border: 5px solid white; */
+    float: left;
+    width: 281px;
+    margin-left: 50px;
+    padding-left: 17px;
+    background-color: rgb(106, 100, 100);
+    border-radius: 10px;
+    padding-bottom: 5px;
+} 
+.btn{
+    background-color: crimson;
+    border-radius: 7px;
+    padding: 6px;
+    font-family: math;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.btn:hover{
+    background-color: rgb(169, 156, 156);
+    font-size: 15px;
+}  
