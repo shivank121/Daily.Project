@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(29, 29, 33);
     /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
@@ -8,8 +8,9 @@ body{
 
 
 /* STEP-1  (HEADER SECTION ) */
+
 .header{
-    padding-bottom: 66px;
+    padding-top: 6px;
 }
 
 .navbar{
@@ -36,44 +37,49 @@ body{
     font-weight: bold;
     font-family: serif;
 }
+.navbar li a:hover{
+    color: red;
+}
 .search{
     float: right;
     /* padding: 7px 4px; */
 
 }
-.section2{
-    background-image: url('https://wallpapercave.com/wp/wp3332351.jpg');
-    overflow: auto;
-    height: 197px;
-    padding-top: 31px;
-}
-.headermain{
-    float: left;
-    font-size: 56px;
-    padding-top: 95px;
-    padding-left: 71px;
-    padding-right: 45px;
-    font-family: monospace;
-    color: #e4d9d9f7;
-}
-headerimg{
-    width: 287px;
-    float: right;
-    height: 50px;
+.section1{
 
 }
+.section2{
+   
+    height: 300px;
+    background-image: url('https://github.blog/wp-content/uploads/2023/02/3-compliance-post.png?resize=800%2C425');
+    background-size: cover;
+    width: 1193px;
+    background-repeat: no-repeat;
+    padding-left: 27px;
+    padding-top: 36px;
+}
+.designation{
+    color: white;
+    font-size: 73px;
+    font-style: oblique;
+    padding-top: 36px;
+}
+
 
 
 /* STEP-2  ( MAIN SECTION )*/
 
 
 .main{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sxfCnZTEivMqlny8x91X40HcyuGBSX-_-A&usqp=CAU');
+    background-image: url('https://c8.alamy.com/zooms/9/e2ef7a783d624206821bb60f727eebcf/khercp.jpg');
     background-repeat: no-repeat; /*stop repetition of background image */
     background-size: 1294px 365px; /* _px(width-horizontally) _px(height-vertically)*/
     overflow: auto; /*Importent Concept*/
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     clear: both;
+    height: 302px;
+    padding-top: 50px;
+    background-size: cover;
 }
 .img{
     margin-left: 57px;
@@ -112,9 +118,10 @@ headerimg{
 /* STEP-3  ( FOOTER SECTION) */
 
 .footer{
-    background-color: black;
-    height: 337px;
+    background-image: url('https://www.techrepublic.com/wp-content/uploads/2002/08/sql-code-Tee11-270x203.jpg');
+    height: 440px;
     padding-top: 62px;
+    background-size: cover;
 }
 .heading2{
     color: white;
